@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcul Indice Masa Corporala</title>
+    <link rel="stylesheet" href="person.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Calcul Indice Masa Corporala</h1>
+    </header>
+    <main>
+      <form>
+        <div class="form-group">
+          <label for="input01">Nume:</label>
+          <input type="text" id="input01" placeholder="Introduceți numele" autofocus required>
+        </div>
+        <div class="form-group">
+          <label for="input02">Gen:</label>
+          <select id="input02" required>
+            <option value="" disabled selected hidden>Selectare</option>
+            <option value="Masculin">Masculin</option>
+            <option value="Feminin">Feminin</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="input03">Greutate (kg):</label>
+          <input type="number" id="input03" min="20" max="250" value="0" required>
+        </div>
+        <div class="form-group">
+          <label for="input04">Înălțime (cm):</label>
+          <input type="number" id="input04" min="0" max="400" value="0" required>
+        </div>
+        <div class="form-group">
+          <button onclick="calculate const button = document.querySelector("button");
+          button.addEventListener("click", calculate);">Calculare</button>
+          
+        </div>
+      </form>
+      <div class="result-container">
+        <p class="result-label">Rezultat:</p>
+        <p id="answer" class="result-value"><person class="js"></person></p>
+      </div>
+    </main>
+    <script src="./person.js" defer></script>
+  </body>
+</html>
