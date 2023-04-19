@@ -7,7 +7,7 @@ body {
   header {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 24px;
   }
   
   header h1 {
@@ -49,8 +49,8 @@ body {
     background-color: #6b90ad;
     color: #fff;
     border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
+    padding: 16px 24px;
+    border-radius: 8px;
     cursor: pointer;
   }
   
@@ -59,10 +59,10 @@ body {
   }
   
   .result-container {
-    margin-top: 20px;
+    margin-top: 24px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px;
+    border-radius: 8px;
+    padding: 16px;
     text-align: center;
   }
   
@@ -74,6 +74,6 @@ body {
   .result-value {
     font-size: 24px;
     font-weight: bold;
-    margin: 10px 0 0;
+    margin: 8px 0 0;
   }
   
